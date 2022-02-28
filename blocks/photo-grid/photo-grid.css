@@ -1,0 +1,32 @@
+.photo-grid {
+    margin: 0 3.75vw 0 3.75vw;
+    min-width: 5.17vw;
+}
+
+@media screen and (min-width: 1281px) {
+    .photo-grid {
+        margin: 0 48px 0 48px;
+        min-width: 928px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        margin: 0 4.69vw 0 4.69vw;
+        min-width: 90.63vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .photo-grid {
+        margin: 0 3.13vw 0 3.13vw;
+        min-width: 93.75vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .photo-grid {
+        margin: 0 2.08vw 0 2.08vw;
+        min-width: 37.50vw;
+    }
+}

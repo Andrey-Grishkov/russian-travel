@@ -1,0 +1,22 @@
+.lead {
+    margin: 4.38vw 11.56vw 0 11.56vw;
+}
+
+@media screen and (min-width: 1281px) {
+    .lead {
+        margin: 56px 148px 0 148px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        margin: 4.69vw 4.69vw 0 4.69vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}

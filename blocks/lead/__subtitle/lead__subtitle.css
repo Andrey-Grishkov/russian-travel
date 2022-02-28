@@ -1,0 +1,36 @@
+.lead__subtitle {
+    margin: 0 calc(25vw - 11.56vw) 5vw calc(25vw - 11.56vw);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.34vw;
+    line-height: 120%;
+    text-align: center;
+}
+
+@media screen and (min-width: 1281px) {
+    .lead__subtitle {
+        margin: 0 calc(320px - 148px) 64px calc(320px - 148px);
+        font-size: 1.875rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__subtitle {
+        margin: 0 18.75vw 5.47vw 18.75vw;
+        font-size: 2.93vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__subtitle {
+        margin: 0 8.33vw 7.29vw 8.33vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__subtitle {
+        margin: 0 5vw 12.5vw 5vw;
+        font-size: 5vw;
+        line-height: 125%;
+    }
+}

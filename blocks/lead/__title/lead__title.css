@@ -1,0 +1,36 @@
+.lead__title {
+    margin: 0 calc(21.88vw - 11.56vw) 4.38vw calc(21.88vw - 11.56vw);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 7.5vw;
+    line-height: 104%;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+}
+
+@media screen and (min-width: 1281px) {
+    .lead__title {
+        margin: 0 calc(280px - 148px) 56px calc(280px - 148px);
+        font-size: 6rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__title {
+        margin: 0 10.16vw 3.12vw 10.16vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__title {
+        margin: 0 21.88vw 2.5vw 21.88vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__title {
+        margin: 0 5vw 5vw 5vw;
+        font-size: 11vw;
+        line-height: 110%;
+    }
+}

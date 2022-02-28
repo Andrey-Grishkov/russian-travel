@@ -1,0 +1,33 @@
+.places {
+    margin: 7.19vw 11.56vw 0 11.56vw;
+    min-width: 76.88vw;
+    min-height: max-content;
+}
+
+@media screen and (min-width: 1281px) {
+    .places {
+        margin:92px 148px 0 148px;
+        min-width: 984px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .places {
+        margin: 8.98vw 4.69vw 0 4.69vw;
+        min-width: 90.63vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places {
+        margin: 11.46vw 3.13vw 0 3.13vw;
+        min-width: 93.75vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places {
+        margin: 20vw 0 0 0;
+        min-width: 100vw;
+    }
+}

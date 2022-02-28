@@ -1,0 +1,42 @@
+.footer {
+    margin: 0 auto 0 auto;
+    padding-bottom: 24px;
+    max-width: 92.50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #2A2C2F;
+}
+
+@media screen and (min-width: 1281px) {
+    .footer {
+        max-width: 1184px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        max-width: 90.63vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        max-width: 93.75vw;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .footer {
+        max-width: 58.13vw;
+        margin-left: 5vw;
+        min-height: 76.88vw;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        min-height: 96.88vw;
+    }
+}
