@@ -1,11 +1,12 @@
-@import url(../fonts/inter.css);
-
 @import url(../vendor/normalize.css);
+
+@import url(../fonts/inter.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_condition/header__lang-link_condition_active.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -23,7 +24,7 @@
 @import url(../blocks/photo-grid/__container/photo-grid__container.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
-@import url(../blocks/places/places__place.css);
+@import url(../blocks/places/places.css);
 @import url(../blocks/places/__place/places__place.css);
 @import url(../blocks/places/__title/places__title.css);
 @import url(../blocks/places/__website/places__website.css);
@@ -55,20 +56,27 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+@media screen and (min-width: 1281px) {
+    .page {
+        max-width: 100%;
+    }
+}
+
+
 @media screen and (max-width: 1024px) {
     .page {
-        min-width: 1024px;
+        max-width: 1024px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .page {
-        min-width: 768px;
+        max-width: 768px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .page {
-        min-width: 320px;
+        max-width: 320px;
     }
 }
